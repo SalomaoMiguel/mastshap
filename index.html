@@ -24,9 +24,9 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Bootstrap core CSS -->
-  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
-  <link href="../css/mdb.min.css" rel="stylesheet">
+  <link href="css/mdb.min.css" rel="stylesheet">
   <style>
     html,
     body,
@@ -64,19 +64,21 @@
         box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12) !important;
       }
     }
+
+    ul {
+      list-style-type: none;
+    }
   </style>
 </head>
 
 <body class="intro-page transport-lp">
-
   <!--Navigation & Intro-->
   <header>
-
     <!--Navbar-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar"
       style="background-color: #f7f7f7!important;">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="../imga/logo/logomastersharp.png" class="img-fluid  "
+        <a class="navbar-brand" href="#"><img src="imga/logo/logomastersharp.png" class="img-fluid  "
             alt="My photo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -125,7 +127,7 @@
 
     <!-- Intro Section -->
     <div id="home" class="view jarallax" data-jarallax='{"speed": 0.2}'
-      style="background-image: url('../imga/back/impressorapeople.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+      style="background-image: url('imga/back/impressorapeople.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
       <div class="mask rgba-black-light">
         <div class="container h-100 d-flex justify-content-center align-items-center">
           <div class="row smooth-scroll">
@@ -152,7 +154,6 @@
 
   <!--Main content-->
   <main>
-
     <!--First container-->
     <div class="container-fluid background-z">
       <div class="container">
@@ -274,28 +275,17 @@
           <div class="col-xl-6 ml-lg-auto col-lg-6 mb-5 wow fadeIn" data-wow-delay="0.4s">
 
             <!--Image-->
-            <img src="../imga/back/officess.jpg" class="img-fluid rounded z-depth-1" alt="My photo">
+            <img src="imga/back/officess.jpg" class="img-fluid rounded z-depth-1" alt="My photo">
 
           </div>
-          <!--/Column column-->
-
         </div>
-        <!--/First row-->
-
       </section>
-      <!--/Section: About-->
-
       <hr>
-
-      <!--Section: Services-->
-
-      <!--/Section: Services-->
-
     </div>
-    <!--/Second container-->
 
     <!--Streak-->
-    <div class="streak streak-photo" style="background-image:url('../imga/back/epson.jpg')">
+    <div class="streak streak-photo"
+      style=" background-color: rgba(0, 0, 0, 0.747); background-image:url('imga/back/epson.jpg'); ">
       <div class="mask flex-center rgba-black-light">
         <div class="container">
 
@@ -303,15 +293,15 @@
           <div class="row text-white text-center wow fadeIn" data-wow-delay="0.2s">
 
             <!--First column -->
-            <div class="col-md-3 mb-2">
-              <h1 class="white-text mb-1 font-weight-bold"><strong>Atendimento</strong></h1>
+            <div class="col-md-3 mb-2 d-none d-lg-block">
+              <h1 class="white-text mb-1 font-weight-bold d-md-none d-lg-block"><strong>Atendimento</strong></h1>
               <p>Em toda Região</p>
             </div>
             <!-- First column -->
 
             <!--Second column -->
-            <div class="col-md-3 mb-2">
-              <h1 class="white-text mb-1 font-weight-bold"><strong>Clientes</strong></h1>
+            <div class="col-md-3 mb-2 d-none d-lg-block">
+              <h1 class="white-text mb-1 font-weight-bold  "><strong>Clientes</strong></h1>
               <p>Mais de 1 mil clientes em Anápolis</p>
             </div>
             <!-- Second column -->
@@ -339,16 +329,15 @@
 
     <!--Third container-->
     <div class="container">
-
       <!--Section: Features v.4-->
       <section id="suport" class="feature-box">
 
         <!--Secion heading-->
-        <h2 class="text-center text-uppercase font-weight-bold mt-5 pt-4 spacing wow fadeIn" data-wow-delay="0.2s">
+        <h2 class="text-center text-uppercase font-weight-bold mt-5 pt-4 spacing wow fadeIn " data-wow-delay="0.2s">
           <strong>Suporte</strong></h2>
 
         <!--Section description-->
-        <p class="text-center text-uppercase font-weight-bold grey-text mb-5 wow fadeIn" data-wow-delay="0.2s"><i
+        <p class="text-center text-uppercase font-weight-bold grey-text mb-5 wow fadeIn " data-wow-delay="0.2s"><i
             class="fas fa-square red-text-2 mr-2" aria-hidden="true"></i>Atendimento ao cliente</p>
 
         <!--Grid row-->
@@ -395,87 +384,55 @@
 
         </div>
         <!--Grid row-->
-
       </section>
       <!--/Section: Features v.4-->
-
     </div>
-    <!--/Third container-->
-
-    <!--Fourth container-->
-
-    <!--/Fourth container-->
-
-    <!--Fifth container-->
-
-    <!--/Fifth container-->
-
   </main>
   <!--/Main content-->
 
   <!--Footer-->
-  <footer class="page-footer mdb-color darken-4 text-center text-md-left pt-5" style="background-color: #121213!important;">
-
+  <footer class="page-footer mdb-color darken-4 text-center text-md-left pt-5"
+    style="background-color: #121213!important;">
     <!--Footer Links-->
     <div class="container mb-3">
-
       <!--First row-->
       <div class="row">
-
         <!--First column-->
-        <div id="contact" class="col-md-4 mt-1 mb-1 wow fadeIn" data-wow-delay="0.3s">
-          <!--About-->
-          <h5 class="title mb-4 font-weight-bold"></h5>
-
-          <p>&emsp;</p>
-
-          <p>&emsp;</p>
-          <!--/About -->
-
-          <div class="footer-socials mt-2 mr-md-auto ml-md-auto">
-            <!--Facebook-->
-            <a href="https://www.facebook.com/mastersharp.aps/" type="button"
-              class="btn-floating  ml-4  mr-4 btn-danger-2"><i class="fab fa-facebook-f"></i></a>
-            <!--Dribbble-->
-            <a href="https://www.instagram.com/master.sharp/" type="button"
-              class="btn-floating ml-4 mr-4 btn-danger-2"><i class="fab fa-instagram"></i></a>
-          </div>
-          <div class="col-lg-3 ml-lg-auto col-md-4 mt-3 d-lg-none mb-1 wow fadeIn" data-wow-delay="0.3s">
-            <!--Search-->
-            <h5 class="text-uppercase mb-4 font-weight-bold">Contato</h5>
-            <!--Info-->
-            <p><i class="fas fa-home pr-1"></i> Rua 15 de Dezembro, 638, Centro, Anápolis</p>
-            <p><i class="fas fa-envelope pr-1"></i> mastersharp@mastersharp.com.br/p>
-              <p><i class="fas fa-phone pr-1"></i> +55 062 3321 3300</p>
-              <p><i class="fab fa-whatsapp pr-1"></i> +55 062 99329-1564</p>
-
-          </div>
-        </div>
-        <!--/First column-->
         <hr class="w-100 clearfix d-md-none">
-        <!--Second column-->
-        <div class="col-lg-3 ml-lg-auto col-md-4 mt-1 mb-1 wow fadeIn" data-wow-delay="0.3s">
+        <div class="col-lg-12 col-md-4 wow fadeIn text-center" data-wow-delay="0.3s">
           <!--Search-->
-          <h5 class="text-uppercase mb-4 font-weight-bold">Contato</h5>
+          <h1 class="text-uppercase mb-4 font-weight-bold">Contato</h1>
           <!--Info-->
           <p><i class="fas fa-home pr-1"></i> Rua 15 de Dezembro, 638, Centro, Anápolis</p>
           <p><i class="fas fa-envelope pr-1"></i> mastersharp@mastersharp.com.br</p>
-            <p><i class="fas fa-phone pr-1"></i> +55 062 3321 3300</p>
-            <p><i class="fab fa-whatsapp pr-1"></i> +55 062 99329-1564</p>
+          <p><i class="fas fa-phone pr-1"></i> +55 062 3321 3300</p>
+          <p><i class="fab fa-whatsapp pr-1"></i> +55 062 99329-1564</p>
+          <ul class="list-group list-group-flush">
+            <li class=""><a href="https://www.instagram.com/master.sharp/" target="_blank"
+                class=" d-lg-none text-decoration-none"><i class="fab fa-instagram pr-1 d-lg-none"></i> Instagram</a>
+            </li>
+            <li class="" ><a href="https://www.facebook.com/mastersharp.aps/" target="_blank" class=" d-lg-none"><i
+                  class="fab fa-facebook pr-1 d-lg-none"></i> Facebook</a></li>
+          </ul>
         </div>
+        <!--/First column-->
         <!--/Second column-->
+        <div class="footer-socials mt-2 mr-md-auto ml-md-auto ">
+          <!--Facebook-->
+          <a href="https://www.facebook.com/mastersharp.aps/" type="button"
+            class="btn-floating ml-auto btn-danger-2 text-center d-none d-lg-inline"><i
+              class="fab fa-facebook-f"></i></a>
+          <!--Dribbble-->
+          <a href="https://www.instagram.com/master.sharp/" type="button"
+            class="btn-floating mr-auto btn-danger-2 text-center  d-none d-lg-inline  "><i
+              class="fab fa-instagram"></i></a>
+        </div>
 
         <hr class="w-100 clearfix d-md-none">
-
-        <!--Third column-->
-        <!--/Third column-->
-
       </div>
       <!--/First row-->
-
     </div>
     <!--/Footer Links-->
-
     <!--Copyright-->
     <div class="footer-copyright py-3 text-center">
       <div class="container-fluid">
@@ -483,24 +440,21 @@
       </div>
     </div>
     <!--/Copyright-->
-
   </footer>
   <!--/Footer-->
 
-
   <!-- SCRIPTS -->
-
   <!-- JQuery -->
-  <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 
   <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="../js/popper.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
 
   <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
   <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="../js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
 
   <script>
     //Animation init
